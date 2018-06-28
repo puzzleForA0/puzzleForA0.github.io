@@ -19,6 +19,10 @@ h2 {
   font-size: 1.5em;
   @include maxBreak($breakPoint) {
     font-size: 1.2em;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
