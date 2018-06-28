@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains app-wide fonts.
+// -----------------------------------------------------------------------------
+
+footer {
+  @include maxBreak($breakPoint) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: $dark-bg;
+    width: 100%;
+    height: 80px;
+    z-index: 9;
+  }
+}

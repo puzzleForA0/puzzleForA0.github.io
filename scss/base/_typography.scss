@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains app-wide fonts.
+// -----------------------------------------------------------------------------
+
+/*------------------------------------*\
+   font families
+\*------------------------------------*/
+
+$family: 'Roboto', sans-serif;
+
+/*------------------------------------*\
+   headers
+\*------------------------------------*/
+
+h2 {
+  font-weight: 400;
+  margin: 0px;
+  color: $h2-color;
+  font-size: 1.5em;
+  @include maxBreak($breakPoint) {
+    font-size: 1.2em;
+  }
+}
+
+h4 {
+  font-weight: 400;
+  margin: 0px;
+  color: $h4-color;
+  font-size: 1em;
+  @include maxBreak($breakPoint) {
+    font-size: 0.9em;
+  }
+}

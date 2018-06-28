@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains global layout classes.
+// -----------------------------------------------------------------------------
+
+/*------------------------------------*\
+   body
+\*------------------------------------*/
+
+body {
+  background: $dark-bg;
+  @include maxBreak($breakPoint) {
+    background: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 80px;
+  }
+}
+
+/*------------------------------------*\
+   main
+\*------------------------------------*/
+
+main {
+   display: flexbox;
+   flex: 1;
+   flex-direction: column;
+   min-height: 100%;
+   background: $dark-bg;
+   padding: 0px 50px 35px 50px;
+   @include maxBreak($breakPoint) {
+     max-height: 620px;
+     overflow: scroll;
+     padding: 0px 15px;
+   }
+}
