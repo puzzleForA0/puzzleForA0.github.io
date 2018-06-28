@@ -58,7 +58,7 @@ i {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 6px solid #ffffff;
-  @include maxBreak(650px) {
+  @include maxBreak($breakPoint) {
     border-top: 6px solid $dark-bg;
   }
 }
